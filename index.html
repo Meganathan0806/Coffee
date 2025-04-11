@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Corner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Coffee Corner ☕</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Welcome to the best brew in town!</h2>
+    <p>Freshly brewed happiness in every cup.</p>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="card">
+      <img src="mike-kenneally-tNALoIZhqVM-unsplash.jpg" alt="Coffee" />
+      <h3>Espresso</h3>
+      <p>$20</p>
+      <button onclick="orderNow('Espresso')">Order Now</button>
+    </div>
+    <div class="card">
+      <img src="jonas-jacobsson-RFHFV7lVQBY-unsplash.jpg" alt="Latte" />
+      <h3>Latte</h3>
+      <p>$30</p>
+      <button onclick="orderNow('Latte')">Order Now</button>
+    </div>
+    <div class="card">
+      <img src="milo-miloezger-rKYRJu0n06Y-unsplash.jpg" alt="Cappuccino" />
+      <h3>Cappuccino</h3>
+      <p>$40</p>
+      <button onclick="orderNow('Cappuccino')">Order Now</button>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@coffeecorner.com</p>
+    <p>Phone: +123 456 7890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Coffee Corner. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
